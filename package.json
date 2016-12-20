@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/karma start --single-run --browsers PhantomJS",
-    "release": "standard-version"
+    "release": "standard-version --sign --message 'chore(release): :package: Bump to %s and new CHANGELOG'"
   },
   "repository": {
     "type": "git",
